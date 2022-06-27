@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Masai Calculator</title>
+    <style>
+        #heading{
+            text-align: center;
+            margin-top: 45px;
+            color: red;
+            font-size: 50px;
+        }
+        #cal{
+            border: 1px solid white;
+            width: 25%;
+            margin: auto;
+            margin-top: 40px;
+            height: 400px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #first{
+            width: 80%;
+            margin: auto;
+            height:50px;
+            margin-top: 40px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+        }
+        #first ~ div{
+            width: 80%;
+            margin: auto;
+            height:auto;
+            margin-top: 15px;
+            display: flex;
+        }
+        #first ~ div > div{
+            width: 22%;
+            height: 100%;
+            margin: auto;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        #first ~ div > :first-child{
+          margin-left: 0px;  
+        }
+        #first ~ div > :last-child{
+          margin-right: 0px; 
+          background-color: black; 
+          color: white;
+        }
+        #bl{
+            background-color: black;
+            color: white;
+        }
+        #first~:last-child>:first-child{
+            background-color: red;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 id="heading">Masai Calculator</h1>
+    <div id="cal">
+        <div id="first"></div>
+        <div>
+            <div><b>1</b></div>
+            <div><b>2</b></div>
+            <div><b>3</b></div>
+            <div><b>+</b></div>
+        </div>
+        <div>
+            <div><b>4</b></div>
+            <div><b>5</b></div>
+            <div><b>6</b></div>
+            <div><b>-</b></div>
+        </div>
+        <div>
+            <div><b>7</b></div>
+            <div><b>8</b></div>
+            <div><b>9</b></div>
+            <div><b>x</b></div>
+        </div>
+        <div>
+            <div><b>C</b></div>
+            <div><b>0</b></div>
+            <div id="bl"><b>=</b></div>
+            <div><b>1</b></div>
+        </div>
+    </div>
+</body>
+</html>
