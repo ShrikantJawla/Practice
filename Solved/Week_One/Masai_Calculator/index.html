@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Masai Calculator</title>
+    <style>
+        #text{
+            text-align: center;
+            font-size: 50px;
+            color: green;
+        }
+        #cal{
+            width: 25%;
+            height: auto;
+            margin: auto;
+            margin-top: 80px;
+            padding: 60px 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+        }
+        #cal #first{
+            width: 75%;
+            height: 55px;
+            margin: auto;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+        }
+        #cal #first ~ div{
+            border: px solid blue;
+            width: 75%;
+            height: 10%;
+            margin: auto;
+            margin-top: 20px;
+            display: flex;
+        }
+        #cal #first ~ div >div{
+            width: 55px;
+            height: 40px;
+            border: 0px solid red;
+            margin: auto; 
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+            border-radius: 10px; 
+            text-align: center ;
+            padding-top:20px ;
+            font-size: 20px;
+            
+        }
+        #cal #first ~ div >:first-child{
+            margin-left: 0px;
+        }
+        #cal #first ~ div >:last-child{
+            margin-right: 0px;
+            background-color: black;
+            color: white;
+        }
+        #cal #last #one{
+            background-color:red;
+        }
+        #cal #last #two{
+            background-color:black;
+             color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text">Masai Calculator</h1>
+    <div id="cal">
+        <div id="first">
+        </div>
+        <div>
+            <div><b>1</b></div>
+            <div><b>2</b></div>
+            <div><b>3</b></div>
+            <div><b>+</b></div>
+        </div>
+        <div>
+            <div><b>4</b></div>
+            <div><b>5</b></div>
+            <div><b>6</b></div>
+            <div><b>-</b></div>
+        </div>
+        <div>
+            <div><b>7</b></div>
+            <div><b>8</b></div>
+            <div><b>9</b></div>
+            <div><b>*</b></div>
+        </div>
+        <div id="last">
+            <div id="one"><b>C</b></div>
+            <div><b>0</b></div>
+            <div id="two"><b>=</b></div>
+            <div><b>/</b></div>
+        </div>
+    </div>
+</body>
+</html>
